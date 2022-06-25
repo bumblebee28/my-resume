@@ -3,6 +3,10 @@ import './Abilities.css'
 
 export default function Abilitites() {
   return (
-    <div>Abilitites</div>
-  )
+    <>
+      <div>
+        Abilities
+      </div>
+    </>
+    )
 }

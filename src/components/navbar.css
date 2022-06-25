@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+    .item{
+        justify-content:space-evenly;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .item{
+        margin: 0% 2.5% 0% 2.5%; 
+        font-size: 20px;
+    }
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    float: center;
+    position:sticky;
+    top:0px;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.item{
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: none;
+    background: linear-gradient(to right, #f8cbcb , #FF8C8C 50%, #FF5D5D 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.item:hover{
+    transform:scale(1.2);
+    background-position: 0 100%;
+}

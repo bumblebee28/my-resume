@@ -14,6 +14,7 @@ export default function Profile() {
         <span Style="--i:6">I</span>
         <span Style="--i:7">T</span>
         <span Style="--i:8">A</span>
+        {" "}
         <span Style="--i:9">P</span>
         <span Style="--i:10">A</span>
         <span Style="--i:11">L</span>
