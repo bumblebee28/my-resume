@@ -3,6 +3,8 @@
     font-size: 70px;
     text-align: center;
     font-family: "proxima-nova","Helvetica Neue";
+    margin-bottom: 5%;
+    padding: 0%;
 }
 
 .body1{
@@ -25,17 +27,14 @@ h1{
     display: block;
     align-items: center;
     text-align: center;
-    margin: 0 30% 0 30%;
+    margin: 5% 30% 10% 30%;
     font-family:  'Open Sans', sans-serif !important;
     font-size: 20px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.605);
-    padding: 20px;
-    border-radius: 20px;
 }
 
 .body2{
-    background-image: url('work.jpg');
+    background-image: url('me.jpg');
     background-attachment: local;
     height: vmin;
     width: vmin;
@@ -48,16 +47,8 @@ h1{
 .about{
     align-items: center;
     text-align: center;
-    margin: 2% 20% 0 20%;
+    margin: 0% 30% 10% 30%;
     font-family:  'Open Sans', sans-serif !important;
     font-size: 20px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.605);
-    padding: 20px;
-    border-radius: 20px;
-}
-
-#grid{
-    display: grid;
-    grid-template-columns: 2fr 0.5fr 2fr;
 }

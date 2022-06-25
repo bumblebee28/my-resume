@@ -16,7 +16,7 @@ export default function Home() {
         <Router>
           <Navbar/>
             <Routes>
-                <Route exact path="/about" element={<About name='Harshita Pal' age='20' location='New Delhi, India' current='BSc (Hons) Computer Science, DU'/>}/>
+                <Route exact path="/about" element={<About name='Harshita Pal' age='20' location='New Delhi, India' current='BSc (Hons) Computer Science'/>}/>
                 <Route exact path="/abilities" element={<Abilities/>}/>
                 <Route exact path="/experience" element={<Experience/>}/>
                 <Route exact path="/contact" element={<Contact/>}/>
