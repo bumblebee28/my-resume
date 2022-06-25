@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+  }
+ 
+.waviy {
+    position: relative;
+  }
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    transform: scale(0.7);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    animation: flip 2s;
+    animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+}
+
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+}
+
+.animated {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }  
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0.2;}
+    100% {opacity: 1;}
+ }
+ 
+@keyframes fadeIn {
+    0% {opacity: 0.2;}
+    100% {opacity: 1;}
+ }
+ 
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }  
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+    .fmain{
+        background-image: url('line art.png');
+        background-attachment: fixed;
+        height: 100vmax;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+
+    #name{
+        font-size: 30px;
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        float: right;
+        text-align: right;
+        margin-right: 30px;
+        margin-top: 150px;
+    }
+}
+
+/* laptop */
+@media only screen and (min-width: 768px) {
+    .fmain{
+        background-image: url('line art.png');
+        background-attachment: fixed;
+        height: 100vmin;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+
+    #name{
+        font-size: 50px;
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        float: right;
+        text-align: right;
+        margin-right: 100px;
+        margin-top: 100px;
+    }
+}
