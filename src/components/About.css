@@ -1,4 +1,4 @@
-#heading{
+#heading1{
     color: white;
     font-size: 70px;
     text-align: center;
@@ -8,12 +8,14 @@
 }
 
 .body1{
-    background-image: url('about.jpg');
+    background-image: url('about.png');
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px;
+    background-size:cover; 
+    height: vmin;
+    width: vmin;
+    padding: 80px;
 }
 
 h1{
@@ -30,11 +32,11 @@ h1{
     margin: 5% 30% 10% 30%;
     font-family:  'Open Sans', sans-serif !important;
     font-size: 20px;
-    color: white;
+    color: #03506F;
 }
 
 .body2{
-    background-image: url('me.jpg');
+    background-image: url('me.png');
     background-attachment: local;
     height: vmin;
     width: vmin;
