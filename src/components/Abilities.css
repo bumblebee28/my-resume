@@ -7,7 +7,7 @@
     padding: 0%;
 }
 
-.body{
+.abody{
     background-image: url('ability.png');
     background-attachment: local;
     background-position: center;
@@ -21,4 +21,27 @@ h1{
     color:#03506F;;
     font-size: 40px;
     text-align: center;
+}
+
+.outer{
+    width: 40%;
+    margin: auto;
+    font-family:  'Open Sans', sans-serif !important;
+    font-size: larger;
+}
+
+.skill{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+#star{
+    background-image: url(star.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 12px;
+    height: 100%;
+    width: 100%;    
 }

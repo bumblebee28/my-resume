@@ -8,7 +8,7 @@ export default function About(props) {
         <div className='body2'>
         <p id="heading1">Profile</p>
         <div className="about">
-          <h1>about me</h1>
+          <h1 style={{color:'white'}}>about me</h1>
           <p>Hii, I am {name}. I am {age} years old. I currently live in {location} and pursuing {current} from Keshav Mahavidyalaya, Delhi University. One thing I think about everyday before going to sleep 
           is "what new did I learn today?". I believe that No matter your age or profession, you learn something new every day. 
           And as a 'ever-hungry' student for new intriguing techs and knowledge, I keep on learning new things. 
