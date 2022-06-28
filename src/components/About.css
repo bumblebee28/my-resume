@@ -9,7 +9,7 @@
 
 .body1{
     background-image: url('about.png');
-    background-attachment: local;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover; 
@@ -37,7 +37,7 @@ h1{
 
 .body2{
     background-image: url('me.png');
-    background-attachment: local;
+    background-attachment: fixed;
     height: vmin;
     width: vmin;
     background-position: center;

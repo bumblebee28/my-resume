@@ -21,7 +21,7 @@
     justify-content:center;
     align-items: center;
     background-color: #0A043C;
-    padding: 10px;
+    padding: 15px;
 }
 
 .item{
@@ -39,4 +39,14 @@
 .item:hover{
     transform:scale(1.2);
     background-position: 0 100%;
+}
+
+.hmain{
+        background-image: url('line art.png');
+        background-attachment: fixed;
+        height: 100vmin;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
 }
