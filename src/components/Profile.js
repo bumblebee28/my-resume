@@ -4,6 +4,7 @@ import  './Profile.css';
 
 export default function Profile() {
   return (
+    
     <div className='fmain animated fadeIn waviy'>
         <div id='name'>
         <span Style="--i:1">H</span>

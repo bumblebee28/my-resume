@@ -10,6 +10,7 @@ import Abilities from './Abilitites';
 import Contact from './Contact';
 import Experience from './Experience';
 import Projects from './Projects';
+import ScrollToTop from './ScrollToTop';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
                 <Route exact path="/contact" element={<Contact/>}/>
                 <Route exact path="/projects" element={<Projects/>}/>
             </Routes>
+            <ScrollToTop/>
         </Router>
   )
 }

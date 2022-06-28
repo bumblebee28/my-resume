@@ -8,14 +8,9 @@ export default function Abilitites() {
       <div>
       <div className="abody">
         <p id="heading">Abilities</p>
-        <h1>Skills</h1>
+        <h1>Skills and Tools</h1>
         <Skill/>
       </div>
-        <h1>Languages</h1>
-        <p></p>
-        <h1>Tools</h1>
-        <p></p>
-      x
       </div>
     </>
     )
