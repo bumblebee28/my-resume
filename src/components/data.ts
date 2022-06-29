@@ -48,6 +48,10 @@ export default [
       level: '3'
     },
     {
+      ability: 'Bootstrap',
+      level: '3'
+    },
+    {
       ability: 'MySQL',
       level: '4'
     },

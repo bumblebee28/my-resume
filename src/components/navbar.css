@@ -17,6 +17,7 @@
     flex-direction: row;
     float: center;
     position:sticky;
+    z-index: 1;
     top:0px;
     justify-content:center;
     align-items: center;

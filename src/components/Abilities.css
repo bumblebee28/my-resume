@@ -17,7 +17,8 @@
 }
 
 h1{
-    font-family: 'Vesterbro';
+    font-family: system-ui!important;
+    font-weight: lighter;
     color:#03506F;;
     font-size: 40px;
     text-align: center;
@@ -31,6 +32,8 @@ h1{
 }
 
 .skill{
+    font-family: system-ui!important;
+    font-weight: lighter;
     list-style: none;
     display: grid;
     grid-template-columns: 3fr 2fr;
