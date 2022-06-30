@@ -1,0 +1,77 @@
+#contact{
+    background-image: url('contact.gif');
+    width: 100%;
+    height: 100%;
+    background-size: cover;  
+    position:absolute;
+    background-repeat: no-repeat;
+}
+
+.cdiv{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: system-ui!important;
+    float: right;
+    width: 50%;
+    margin-right: 10%;
+}
+
+#c{    
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+#cbody{
+    font-weight: lighter;
+    font-size: larger;
+    float: right;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    row-gap: 20px;
+    margin-bottom: 20px
+}
+
+.hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.linked{
+    background-image: url('linkedin.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px;
+}
+.twitter{
+    background-image: url('twitter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px;
+}
+.mail{
+    background-image: url('mail.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px;
+}
+.git{
+    background-image: url('git.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px;
+}
+.call{
+    background-image: url('call.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20px;
+    
+}
+#phone{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
