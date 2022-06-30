@@ -6,17 +6,6 @@
     margin-bottom: 5%;
     padding: 0%;
 }
-
-.body1{
-    background-image: url('about.png');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover; 
-    padding: 80px;
-    position: relative;
-}
-
 h1{
     font-family: 'Vesterbro';
     color: white;
@@ -34,7 +23,7 @@ h1{
 }
 
 .body2{
-    background-image: url('me.png');
+    background-image: url('about.gif');
     background-attachment: fixed;
     height: vmin;
     width: vmin;

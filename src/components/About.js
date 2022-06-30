@@ -15,10 +15,8 @@ export default function About(props) {
           I don't want to miss anything that life has to offer to me. So, I explore every other opportunity i can get a hold of! </p>
           
         </div>
-    </div>
-    <div className='body1'>
-        <div className="self">
-            <h1 style={{color:'#03506F'}}>i do a bit of everything</h1>
+        <div className="about">
+            <h1>i do a bit of everything</h1>
             <p>I am a <b>Full Stack Web Developer</b>, a Coder, a Designer, a Digital Artist, an Illustrator and a lifetime student. 
               I am a dancer. I am a reader and a writer. I am an Optimist And I will be more things yet to come.</p>
         </div>

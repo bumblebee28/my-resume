@@ -1,12 +1,11 @@
 import React from 'react'
-// import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
 
-export default function Home() {
+export default function Home(props) {
+  
   return (
         <div className='hmain'>
-          <Navbar/>
-          
+          <Navbar url={(window.location.pathname)==='/home'?'/':'/home'}/>          
         </div>
   )
 }
