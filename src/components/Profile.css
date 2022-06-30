@@ -60,6 +60,12 @@ body, html {
     padding: 7px;
     border: white 1px solid;
  }
+
+ #peek:hover{
+    background-color: white;
+    color: darkblue;
+ }
+
 #res{
     font-size: 50px;
     letter-spacing: 0px;

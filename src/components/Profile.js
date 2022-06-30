@@ -1,5 +1,4 @@
 import React from 'react'
-import scroll from './scroll.gif'
 import './Profile.css';
 import { Link } from 'react-router-dom';
 
@@ -42,12 +41,6 @@ export default function Profile() {
         </p>
         <Link id = "peek" to='/home'>Peek Inside</Link>
       </div>
-      {/* <div style={{ position: 'absolute', bottom: '10px', right: '10px' }}>
-        <p style={{ position: 'relative', right: '20px', fontFamily: 'sans-serif', fontSize: '20px', color: 'rgb(1, 136, 255)' }}>
-          
-        </p>
-        <img src={scroll} style={{ height: '50px', bottom: '10px', right: '10px' }} alt='' />
-      </div> */}
     </div>
   )
 }
