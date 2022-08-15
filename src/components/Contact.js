@@ -12,7 +12,7 @@ export default function Contact() {
           <a href='https://twitter.com/HarshitaPal18' target="_blank"><div className="twitter"></div></a>
           </div>
           <div id='cbody'>
-          <a href='https://mail.google.com/mail/u/0/#inbox?compose=VpCqJRxrztRsQJqwbNSwqXHlMjdQdrfngHtZdkkFfnZsLPkHhhvfhNgzBVWGdvPZcJdNmdq' target="_blank"><div className="mail"></div></a>
+          <a href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtswPCcsngVSMrSvzvWxGDCfbZSwlMxWsvmmBGDHzPCmsmHZgzqpnmcxwxjKjkSJXDsdcB' target="_blank"><div className="mail"></div></a>
           <a href='https://github.com/bumblebee28' target="_blank"><div className="git"></div></a>   
           </div>
        

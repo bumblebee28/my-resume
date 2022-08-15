@@ -16,6 +16,11 @@ export default [
       level: '5'
     },
     {
+      ability: 'Python',
+      level: '3'
+    },
+    
+    {
       ability: 'HTML5',
       level: '5'
     },
@@ -40,12 +45,20 @@ export default [
       level: '4'
     },
     {
+      ability: 'Jupyter Nptebook',
+      level: '3'
+    },
+    {
+      ability: 'Visual Studio',
+      level: '5'
+    },
+    {
       ability: 'Adobe Premiere Pro',
       level: '4'
     },
     {
       ability: 'Android Programming',
-      level: '3'
+      level: '2'
     },
     {
       ability: 'Bootstrap',
@@ -63,10 +76,7 @@ export default [
       ability: 'Software Development',
       level: '4'
     },
-    {
-      ability: 'Python',
-      level: '2'
-    },
+    
     {
       ability: 'PHP',
       level: '2'

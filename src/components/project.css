@@ -5,4 +5,48 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
+    text-align: center;
+    align-items: center;
 }
+
+#heading{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-family: "proxima-nova","Helvetica Neue";
+    margin-bottom: 5%;
+    padding: 0%;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.project {
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    border: 0.5px white solid;
+    font-family: "proxima-nova","Helvetica Neue";
+    width: fit-content;
+    padding: 20px;
+    align-self: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+  }
+  
+  a:visited {
+    color: rgb(0, 255, 0);
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
